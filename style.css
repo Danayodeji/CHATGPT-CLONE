@@ -1,0 +1,43 @@
+/* IMPORT GOOGLE FONT POPPINS */
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --text-color: #FFFFFF;
+    --icon-color: #ACACBE;
+    --icon-over-bg: #5b5e71;
+    --placeholder-color: #CCCCCC;
+    --outgoing-chat-bg: #343541;
+    --incoming-chat-bg: #444654;    
+}
+
+body{
+    background: var(--outgoing-chat-bg);
+}
+
+/* chat container styling */
+.chat-container .chat{
+    color: var(--text-color);     
+}
+
+.chat .chat-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.chat .chat-details{
+    display: flex;
+    align-items: center;
+}
+.chat .chat-details img{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 2px;
+}
